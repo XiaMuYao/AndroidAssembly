@@ -38,6 +38,6 @@ dependencies {
 apply plugin: 'com.didi.virtualapk.plugin'
 virtualApk {
     packageId = 0x6f
-    targetHost = 'D:\\Project\\Git\\Android\\AndroidAssembly\\app'
+    targetHost = '../app'
     applyHostMapping = true
 }
