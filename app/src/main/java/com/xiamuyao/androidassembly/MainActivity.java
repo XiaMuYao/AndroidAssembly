@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View mView) {
                 Intent intent = new Intent();
-                intent.setClassName("com.xiamuyao.androidassembly", "com.xiamuyao.sharemyapplication.Share_MainActivity");
+                intent.setClassName("com.xiamuyao.sharemyapplication", "com.xiamuyao.sharemyapplication.Share_MainActivity");
                 startActivity(intent);
 
             }
